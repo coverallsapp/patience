@@ -50,3 +50,7 @@ end
     redirect "#{$base_badge_url}/coveralls_#{coverage || 'unknown'}.#{format}"
   end
 end
+
+get '/*' do
+  send_file 'public/index.html'
+end
