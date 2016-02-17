@@ -1,73 +1,507 @@
+
+
 <!DOCTYPE html>
 <html lang='en'>
-
   <head>
+    <title>Coveralls [Development] - Test Coverage History &amp; Statistics</title>
+    <meta content='Ensure that all your new code is fully covered, and see coverage trends emerge. Works with any CI service. Always free for open source.' name='description'>
+    <meta content='jjkWjPM43FYXwRd2QigTVe8W27xMk-cXGJxUD6mQDCY' name='google-site-verification'>
+    <meta content='uVH7jwgRaeBZzSydDg2B7A3k8Xaw4axxRcaGLMd3Rc' name='globalsign-domain-verification'>
     <meta charset='utf-8'>
     <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <title>Coveralls :: Oops, something went wrong (500)</title>
+    <meta content='Coveralls, coveralls gem, automated testing, integration testing, test coverage, TDD, CI, continuous integration testing, continuous integration, test code coverage, test coverage history, ruby gem, python extension, test driven development, github badge, code coverage, code coverage history, code coverage statistics' name='keywords'>
+    <meta content='Coveralls.io - Test Coverage History and Statistics' property='og:title'>
+    <meta content='The leading provider of test coverage analytics. Ensure that all your new code is fully covered, and see coverage trends emerge. Works with most CI services. Always free for open source.' property='og:description'>
+    <meta content='Coveralls.io' property='og:site_name'>
+    <meta content='/social.png' property='og:image'>
+    <meta content='image/png' property='og:image:type'>
+    <meta content='500' property='og:image:width'>
+    <meta content='500' property='og:image:height'>
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="ZWssnIYWINVDzT10a6Ya880oyf0j6/s9SQTRnRJJadE=" name="csrf-token" />
+    <link href='/favicon.png' rel='shortcut icon'>
+    <link href='/apple-touch-icon-precomposed.png' rel='apple-touch-icon-precomposed'>
 
-    <link type="text/css" rel="stylesheet" media="screen" href="/pub.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-    <script type="text/javascript" src="//use.typekit.net/ngz2htl.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="//use.typekit.net/php4ecs.js"></script>
+    <script type='text/javascript'>try{Typekit.load();}catch(e){}</script>
 
+    <meta content="pk_test_KZDvta2geSSm8TOaRZQQPliv" name="stripe-key" />
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link href="pub.css" rel="stylesheet" />
   </head>
 
-  <body id='errorPage' class='errorAlert'>
+  <body class='naked'>
     <div class='container'>
       <div class='container_footer'>
-
-        <div class="fixedWr">
-          <a class="logo" href="http://coveralls.io">Coveralls</a>
-          <div class="fixedMenu">
-            <a href="http://support.coveralls.io">Docs</a>
-            <a target="_blank" href="http://blog.coveralls.io/">Blog</a>
-          </div>
-        </div>
-
-
-        <div class='errorContent'>
-          <img src="https://s3.amazonaws.com/assets.coveralls.io/assets/public_stomp-d9260221fff7d9ead77ff4106482e787.png" />
+        <div id='down-for-update'>
           <h1>
-            Five Zero Zero
+            DATABASE UPGRADE
+            <em>COVERALLS IS in READ-ONLY MODE</em>
           </h1>
-          <div class='errorMessage'>
-            <h2>It's Gone Pear Shaped</h2>
-            <p>There has been a hiccup, the revolution will continue after we stamp out the refusniks. You could also try refreshing or returning to the home page.</p>
-            <p>Also, you might want to check out the Coveralls Status page to see if there is a system outage: <a href="http://status.coveralls.io" target="_blank">http://status.coveralls.io</p>
-          </div>
-
-          <br><br>
-
-          <div class="twitter-feed">
-            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/CoverallsApp" data-widget-id="380835385749667840">Tweets by @CoverallsApp</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <div class="dialog">
+            
+            <p>We’re going into emergency read-only mode while diagnosing a DB performance issue. Thank you for your patience.</p>
+            <div class="twitter-feed">
+              <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/CoverallsApp" data-widget-id="380835385749667840">Tweets by @CoverallsApp</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
           </div>
         </div>
-
-
+        <div id='home'>
+          <section id='billboardSimple'>
+            <a class="cornerAnnounce" href="http://blog.coveralls.io/2015/07/07/Proud-to-Announce-Bitbucket-Support/" target="_blank"><img alt="Home bitbucket" src="assets/home_bitbucket.png" /></a>
+            <div id='heroCloud'>
+              <h1 id='logo'>
+                Coveralls
+                <p>
+                  <strong>&#x2605;</strong>
+                  DELIVER BETTER CODE
+                  <strong>&#x2605;</strong>
+                </p>
+              </h1>
+              <div class='copy'>
+                <p>We help you deliver code confidently by showing which parts of your code aren’t covered by your test suite. Free for open source repos. Pro accounts for private repos. Instant sign up through GitHub and Bitbucket.</p>
+                <div class='actionButtons'>
+                  <table>
+                    <tr>
+                      <td>
+                        <label>Have open source repos?</label>
+                        <a class="btn btn-large btn-danger" href="/sign-up">Get Started for Free
+                        </a>
+                      </td>
+                      <td>
+                        <label>Want private repo coverage?</label>
+                        <a class="btn btn-large btn-primary" href="/pricing"><i class="fa fa-star"></i>
+                        Check Out Pricing
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <a href="https://coveralls.io/github/facebook/react" id="homeScreen" target="_blank"><img alt="Home screen" src="assets/home_screen.jpg" /></a>
+            <div id='entSimple'>
+              <p>Need to run Coveralls on your own servers? Check out:</p>
+              <h1>ENTERPRISE</h1>
+              <a class="btn btn-ent" href="http://enterprise.coveralls.io">Get More Info</a>
+            </div>
+          </section>
+          <section id='homeOrgs'>
+            <div class='mainWr'>
+              <h1>
+                These organizations joined the fight
+                <p>They value code quality insight, shouldn't you?</p>
+              </h1>
+              <div class='firstrow'>
+                <i class='ci adobe'></i>
+                <i class='ci amazon'></i>
+                <i class='ci airbnb'></i>
+                <i class='ci cisco'></i>
+                <i class='ci django'></i>
+                <i class='ci docker'></i>
+                <i class='ci elasticsearch'></i>
+                <i class='ci express'></i>
+                <i class='ci facebook'></i>
+                <i class='ci fcc'></i>
+                <i class='ci gannett'></i>
+                <i class='ci google'></i>
+                <i class='ci heroku'></i>
+                <i class='ci hulu'></i>
+                <i class='ci intel'></i>
+                <i class='ci intuit'></i>
+                <i class='ci jekyll'></i>
+                <i class='ci jquery'></i>
+                <i class='ci linkedin'></i>
+                <i class='ci microsoft'></i>
+                <i class='ci mongodb'></i>
+                <i class='ci mozilla'></i>
+                <i class='ci netflix'></i>
+                <i class='ci nvidia'></i>
+                <i class='ci nytimes'></i>
+                <i class='ci optimizley'></i>
+                <i class='ci palantir'></i>
+                <i class='ci paypal'></i>
+                <i class='ci slack'></i>
+                <i class='ci square'></i>
+                <i class='ci stripe'></i>
+                <i class='ci toyota'></i>
+                <i class='ci twitter'></i>
+                <i class='ci uber'></i>
+                <i class='ci unity'></i>
+                <i class='ci venmo'></i>
+                <i class='ci viacom'></i>
+                <i class='ci yahoo'></i>
+                <i class='ci yelp'></i>
+                <i class='ci zend'></i>
+              </div>
+            </div>
+          </section>
+          <section id='languages'>
+            <div class='mainWr'>
+              <h1>
+                Deliver code with confidence
+                <p>LANGUAGES supported by Coveralls Integration packages</p>
+              </h1>
+            </div>
+            <div class='langWr'>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201342799-C-C-'>C / C++</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/204189715'>D</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201342809-Go'>Go</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201342819-Haskell'>Haskell</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201342829-Java'>Java</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201769715-Javascript-Node'>Javascript & Node</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/203487969'>Julia</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/202044415-Lua'>Lua</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/203488029'>.Net</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201769735-PHP'>PHP</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201342869-Python'>Python</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/203487909'>R</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201769485-Ruby-Rails'>Ruby / Rails</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201342879-Scala'>Scala</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/204190275'>Objective C</a>
+              <a href='https://coveralls.zendesk.com/hc/en-us/articles/201769725-OCaml'>OCaml</a>
+            </div>
+          </section>
+          <section id='openSource'>
+            <div class='mainWr'>
+              <h1>
+                Open-source repos leading the way
+                <p>Revolutionaries for the code coverage awareness movement</p>
+              </h1>
+              <h3>Ruby</h3>
+              <table>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/mojombo/jekyll" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/mojombo/jekyll/badge.svg" /></a>
+                    <a href="https://github.com/mojombo/jekyll" target="_blank">Jekyll</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/fog/fog" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/fog/fog/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/fog/fog" target="_blank">Fog</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/gitlabhq/gitlabhq" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/gitlabhq/gitlabhq/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/gitlabhq/gitlabhq" target="_blank">GitLab</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/resque/resque" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/resque/resque/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/resque/resque" target="_blank">Resque</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/intridea/omniauth" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/intridea/omniauth/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/intridea/omniauth" target="_blank">Omniauth</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/haml/haml" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/haml/haml/badge.svg" /></a>
+                    <a href="https://github.com/haml/haml" target="_blank">HAML</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/spree/spree" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/spree/spree/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/spree/spree" target="_blank">Spree</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/mperham/sidekiq" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/mperham/sidekiq/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/mperham/sidekiq" target="_blank">Sidekiq</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/guard/guard" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/guard/guard/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/guard/guard" target="_blank">Guard</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/CocoaPods/CocoaPods" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/CocoaPods/CocoaPods/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/CocoaPods/CocoaPods" target="_blank">CocoaPods</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/sferik/rails_admin" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/sferik/rails_admin/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/sferik/rails_admin" target="_blank">Rails Admin</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/activeadmin/activeadmin" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/activeadmin/activeadmin/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/activeadmin/activeadmin" target="_blank">Active Admin</a>
+                  </td>
+                </tr>
+              </table>
+              <h3>Javascript</h3>
+              <table>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/github/facebook/react" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/facebook/react/badge.svg?branch=master&amp;service=github" /></a>
+                    <a href="https://github.com/facebook/react" target="_blank">React</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/strongloop/express" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/strongloop/express/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/strongloop/express" target="_blank">Express</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/gulpjs/gulp" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/gulpjs/gulp/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/gulpjs/gulp" target="_blank">Gulp</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/hexojs/hexo" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/hexojs/hexo/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/hexojs/hexo" target="_blank">Hexo</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/jshint/jshint" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/jshint/jshint/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/jshint/jshint" target="_blank">JSHint</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/jquery/jquery-mobile?branch=master" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/jquery/jquery-mobile/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/jquery/jquery-mobile" target="_blank">jQuery Mobile</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/koajs/koa" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/koajs/koa/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/koajs/koa" target="_blank">Koa</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/lodash/lodash" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/lodash/lodash/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/lodash/lodash" target="_blank">Lodash</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/backbone-boilerplate/backbone-boilerplate" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/backbone-boilerplate/backbone-boilerplate/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/backbone-boilerplate/backbone-boilerplate" target="_blank">Backbone Boilerplate</a>
+                  </td>
+                </tr>
+              </table>
+              <h3>Python</h3>
+              <table>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/tornadoweb/tornado" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/tornadoweb/tornado/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/tornadoweb/tornado" target="_blank">Facebook Tornado</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/getsentry/sentry?branch=master" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/getsentry/sentry/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/getsentry/sentry" target="_blank">Sentry</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/jakubroztocil/httpie" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/jakubroztocil/httpie/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/jakubroztocil/httpie" target="_blank">Httpie</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/celery/celery" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/celery/celery/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/celery/celery" target="_blank">Celery</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/scrapy/scrapy" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/scrapy/scrapy/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/scrapy/scrapy" target="_blank">Scrapy</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/getpelican/pelican" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/getpelican/pelican/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/mozilla/funfactory" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/mozilla/funfactory/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/mozilla/funfactory" target="_blank">Mozilla Funfactory</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/divio/django-cms" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/divio/django-cms/badge.svg?branch=develop" /></a>
+                    <a href="https://github.com/divio/django-cms" target="_blank">Django CMS</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/django-compressor/django-compressor" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/django-compressor/django-compressor/badge.svg?branch=develop" /></a>
+                    <a href="https://github.com/django-compressor/django-compressor" target="_blank">Django Compressor</a>
+                  </td>
+                </tr>
+              </table>
+              <h3>PHP / C / Objective C / Scala / Go</h3>
+              <table>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/twitter/scalding" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/twitter/scalding/badge.svg?branch=develop" /></a>
+                    <a href="https://github.com/twitter/scalding" target="_blank">Twitter Scalding</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/Cocoanetics/DTCoreText" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/Cocoanetics/DTCoreText/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/Cocoanetics/DTCoreText" target="_blank">DTCoreText</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/mattn/go-v8" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/mattn/go-v8/badge.svg?branch=HEAD" /></a>
+                    <a href="https://github.com/mattn/go-v8" target="_blank">Go-V8</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/google/go-github" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/google/go-github/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/google/go-github" target="_blank">Go-Github</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/neovim/neovim" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/neovim/neovim/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/neovim/neovim" target="_blank">Neovim</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/github/arzynik/tipsy" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/arzynik/tipsy/badge.svg?branch=master&amp;service=github" /></a>
+                    <a href="https://github.com/arzynik/tipsy" target="_blank">Tipsy</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://coveralls.io/r/google/tuneup.dart" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/google/tuneup.dart/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/google/tuneup.dart" target="_blank">Tuneup.dart</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/yiisoft/yii" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/yiisoft/yii/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/yiisoft/yii" target="_blank">Yii</a>
+                  </td>
+                  <td>
+                    <a href="https://coveralls.io/r/zendframework/zf2" target="_blank"><img alt="Badge" src="https://coveralls.io/repos/zendframework/zf2/badge.svg?branch=master" /></a>
+                    <a href="https://github.com/zendframework/zf2" target="_blank">Zend Framework</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </section>
+          <section id='homeFeatures'>
+            <div class='mainWr'>
+              <h1>What does Coveralls do?</h1>
+              <div class='screenItems'>
+                <div class='screenItem'>
+                  <a href="/features"></a>
+                  <p>Repository coverage stats</p>
+                </div>
+                <div class='screenItem'>
+                  <a class="screen2" href="/features"></a>
+                  <p>File coverage reports</p>
+                </div>
+                <div class='screenItem'>
+                  <a class="screen3" href="/features"></a>
+                  <p>Line-by-line coverage</p>
+                </div>
+                <div class='screenItem'>
+                  <a class="screen4" href="/features"></a>
+                  <p>Repository overview</p>
+                </div>
+                <div class='screenItem'>
+                  <a class="screen5" href="/features"></a>
+                  <p>Coverage updates</p>
+                </div>
+                <div class='screenItem'>
+                  <a class="screen6" href="/features"></a>
+                  <p>GitHub notices</p>
+                </div>
+              </div>
+              <div class='actionButtons'>
+                <p>Would you like to know more?</p>
+                <a class="btn btn-large btn-danger" href="/features">Check out the Features</a>
+              </div>
+            </div>
+          </section>
+          <section id='homeWhy'>
+            <div class='mainWr'>
+              <h1>What are we fighting for?</h1>
+              <section class='fight'>
+                <i></i>
+                <div class='copy'>
+                  
+                  <h2 id="eliminate_technical_debt">Eliminate technical debt!</h2>
+                  
+                  <h3 id="let_your_ci_server_do_the_work">Let your CI Server do the work</h3>
+                  
+                  <p>Maintaining a well-tested codebase is mission-critical.</p>
+                  
+                  <p>Figuring out where your tests are lacking can be painful. You’re already running your tests on a continuous integration server, so shouldn’t it be doing the heavy lifting?</p>
+                  
+                  <p>Coveralls works with your CI server and sifts through your coverage data to find issues you didn’t even know you had before they become a problem.</p>
+                </div>
+              </section>
+              <section class='computer'>
+                <div class='copy'>
+                  
+                  <h2 id="discover_trends">Discover Trends</h2>
+                  
+                  <h3 id="data_data_data">Data, data, data.</h3>
+                  
+                  <p>If you’re just running your code coverage locally, you won’t be able to see changes and trends that occur during your entire development cycle.</p>
+                  
+                  <p>Coveralls lets you inspect every detail of your coverage with unlimited history.</p>
+                </div>
+                <i></i>
+              </section>
+              <section class='badges'>
+                <i></i>
+                <div class='copy'>
+                  
+                  <h2 id="show_off_your_coverage">Show off your coverage</h2>
+                  
+                  <h3 id="share_your_sweet_suite_with_the_world">Share your sweet suite with the world.</h3>
+                  
+                  <p>Display your coverage percentage like a badge of honor with our — well — Badges of Honor. Encourage others to join the movement for code coverage!</p>
+                </div>
+              </section>
+              <section class='stomp'>
+                <div class='copy'>
+                  
+                  <h2 id="stomp_out_bugs">Stomp out bugs!</h2>
+                  
+                  <h3 id="always_be_covering">Always be covering.</h3>
+                  
+                  <p>Do you know what your code coverage is?</p>
+                  
+                  <p>There might be an entire area of your application that is an apocalyptic hellstorm of bugs just waiting to attack your customers. And their families.</p>
+                  
+                  <p>Coveralls takes the pain out of tracking your code coverage.</p>
+                  
+                  <p>Know where you stand with your untested code. Develop with confidence that your code is covered.</p>
+                </div>
+                <i></i>
+              </section>
+            </div>
+          </section>
+        </div>
       </div>
     </div>
-
-    <footer id="footer">
-      <div class="wrapper">
+    <footer id='footer'>
+      <div class='wrapper'>
         <a href="http://support.coveralls.io">Troubleshooting</a>
-        ·
+        &middot;
         <a href="https://github.com/lemurheavy/coveralls-public/issues">Open an Issue</a>
-        ·
-        <a rel="nofollow" href="mailto:sales@coveralls.io">Sales</a>
-        ·
-        <a rel="nofollow" href="mailto:coveralls@lemurheavy.com">FEEDBACK</a>
-        ·
-        <a target="_blank" href="http://blog.coveralls.io/">BLOG</a>
-        ·
-        <a target="_blank" href="https://twitter.com/CoverallsApp">TWITTER</a>
+        &middot;
+        <a href="mailto:sales@coveralls.io" rel="nofollow">Sales</a>
+        &middot;
+        <a href="https://coveralls.zendesk.com/hc/en-us/requests/new" rel="nofollow">FEEDBACK</a>
+        &middot;
+        <a href="http://blog.coveralls.io/" target="_blank">BLOG</a>
+        &middot;
+        <a href="https://twitter.com/CoverallsApp" target="_blank">TWITTER</a>
+        &middot;
+        <a href="/sponsors">SPONSOR</a>
+        &middot;
+        <a href="https://enterprise.coveralls.io">ENTERPRISE</a>
+        &middot;
+        <a href="/careers">CAREERS</a>
+        <br>
+        <span>
+          <a href="/legal">Legal &amp; Privacy</a>
+          &middot;
+          <a href="/supported-continuous-integration">Supported CI Services</a>
+          &middot;
+          <a href="/continuous-integration">What&#39;s a CI service?</a>
+          &middot;
+          <a href="/code-coverage">Automated Testing</a>
+          &middot;
+          <a href="/about">About Us</a>
+          &middot;
+          <a href="https://coveralls.io/sitemap.xml">Site Map</a>
+        </span>
         <p>
-          &copy; 2014 <a rel="nofollow" href="http://lemurheavy.com">Lemur Heavy Industries</a>
+          &copy; 2016 <a href="http://lemurheavy.com" rel="nofollow">Lemur Heavy Industries</a>
         </p>
       </div>
     </footer>
-    
+
   </body>
 </html>
