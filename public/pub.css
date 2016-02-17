@@ -727,7 +727,7 @@ html {
 /* line 270, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 body {
   background-color: #fefdf8;
-  background-image: url(assets/bg.png);
+  background-image: url(/assets/bg.png);
   color: #354A57;
   height: 100%;
   -webkit-font-smoothing: antialiased;
@@ -740,12 +740,12 @@ body {
 /* line 279, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 .container.bgStars {
   background-color: #152a33;
-  background-image: url(assets/enterprise/stars1.png), url(assets/enterprise/stars2.png), url(assets/enterprise/stars3.png);
+  background-image: url(/assets/enterprise/stars1.png), url(/assets/enterprise/stars2.png), url(/assets/enterprise/stars3.png);
 }
 /* line 282, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 .container.bgHorizon {
   background-color: #152a33;
-  background-image: url(assets/enterprise/bg_horizon.png);
+  background-image: url(/assets/enterprise/bg_horizon.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -753,7 +753,7 @@ body {
 /* line 288, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 .container.bgMtns {
   background-color: #152a33;
-  background-image: url(assets/enterprise/bg_mtns.png);
+  background-image: url(/assets/enterprise/bg_mtns.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -761,7 +761,7 @@ body {
 /* line 294, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 .container.bgCm {
   background-color: #152a33;
-  background-image: url(assets/enterprise/bg_cm.png), url(assets/enterprise/stars1.png), url(assets/enterprise/stars2.png), url(assets/enterprise/stars3.png);
+  background-image: url(/assets/enterprise/bg_cm.png), url(/assets/enterprise/stars1.png), url(/assets/enterprise/stars2.png), url(/assets/enterprise/stars3.png);
   background-position: 90% 10%;
   background-repeat: no-repeat, repeat, repeat, repeat;
 }
@@ -804,7 +804,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-color: rgba(53, 74, 87, 0.5);
-  background-image: url(assets/bg.png);
+  background-image: url(/assets/bg.png);
   border-left: 1px solid rgba(255, 255, 255, 0.4);
   display: table-cell;
   padding: 40px 0 20px;
@@ -818,7 +818,7 @@ body {
   -moz-box-shadow: 0 1px 0 0 white;
   box-shadow: 0 1px 0 0 white;
   background-color: rgba(53, 74, 87, 0.3);
-  background-image: url(assets/bg.png);
+  background-image: url(/assets/bg.png);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   color: #fff;
   font-size: 12px;
@@ -831,7 +831,7 @@ body {
 /* line 341, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 .hideChrome {
   background-color: #354a57;
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
 }
 /* line 344, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 .hideChrome .appBody {
@@ -1361,7 +1361,7 @@ hr {
 
 /* line 680, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 .plans {
-  background: url(assets/pricing_icons_large.png) no-repeat;
+  background: url(/assets/pricing_icons_large.png) no-repeat;
   display: inline-block;
   overflow: hidden;
   height: 95px;
@@ -1836,7 +1836,7 @@ table.datatable th.sorting_asc, table.datatable th.sorting_desc, table.datatable
 /* line 1022, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 #header {
   background-color: #b94947;
-  background-image: url(assets/bg.png);
+  background-image: url(/assets/bg.png);
   height: 100%;
   left: 0;
   position: fixed;
@@ -1887,7 +1887,7 @@ table.datatable th.sorting_asc, table.datatable th.sorting_desc, table.datatable
   -moz-box-shadow: 3px 0 0 0 #354a57 inset;
   box-shadow: 3px 0 0 0 #354a57 inset;
   background-color: #fefdf8;
-  background-image: url(assets/bg.png);
+  background-image: url(/assets/bg.png);
   color: #354a57;
 }
 /* line 1060, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
@@ -1902,7 +1902,7 @@ table.datatable th.sorting_asc, table.datatable th.sorting_desc, table.datatable
   -moz-box-shadow: 3px 0 0 0 #fefdf8 inset;
   box-shadow: 3px 0 0 0 #fefdf8 inset;
   background-color: #354a57;
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
   color: #fefdf8;
   margin-right: -4px;
 }
@@ -1955,7 +1955,7 @@ table.datatable th.sorting_asc, table.datatable th.sorting_desc, table.datatable
 /* line 1103, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 #footer {
   background-color: #354a57;
-  background-image: url(assets/bg.png);
+  background-image: url(/assets/bg.png);
   margin-top: -122px;
   padding-top: 10px;
   position: relative;
@@ -2039,7 +2039,7 @@ table.datatable th.sorting_asc, table.datatable th.sorting_desc, table.datatable
 /* line 1169, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 #errorPage {
   background-color: #354a57;
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
   position: relative;
 }
 /* line 1173, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
@@ -2058,7 +2058,7 @@ table.datatable th.sorting_asc, table.datatable th.sorting_desc, table.datatable
 /* line 1180, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 #errorPage.error404:before {
   background-color: #162028;
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
   content: "";
   height: 100%;
   left: 0;
@@ -2068,7 +2068,7 @@ table.datatable th.sorting_asc, table.datatable th.sorting_desc, table.datatable
 }
 /* line 1189, /Users/lee/www/coveralls/app/assets/stylesheets/global.sass */
 #errorPage.error404:after {
-  background-image: url(assets/error_zep.png);
+  background-image: url(/assets/error_zep.png);
   content: "";
   height: 499px;
   position: absolute;
@@ -2122,7 +2122,7 @@ table.datatable th.sorting_asc, table.datatable th.sorting_desc, table.datatable
   -moz-box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
   background-color: #F89406;
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
   color: #fefdf8;
   font-size: 13px;
   font-style: italic;
@@ -2260,7 +2260,7 @@ ul.fieldset.left {
   -moz-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5);
   background-color: #b94947;
-  background-image: url(assets/bg.png);
+  background-image: url(/assets/bg.png);
   left: 40px;
   padding: 10px 20px;
   position: fixed;
@@ -2408,12 +2408,12 @@ ul.fieldset.left {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: -webkit-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: -webkit-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: -moz-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: -o-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: -ms-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
+  background: -webkit-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: -webkit-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: -moz-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: -o-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: -ms-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
   -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
@@ -2479,7 +2479,7 @@ ul.fieldset.left {
 
 /* line 161, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #billboardSplit {
-  background-image: url(assets/hero_cloud.png), url(assets/hero_ent.jpg);
+  background-image: url(/assets/hero_cloud.png), url(/assets/hero_ent.jpg);
   background-position: center top, right top;
   height: 575px;
 }
@@ -2578,7 +2578,7 @@ ul.fieldset.left {
 /* line 230, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #billboardSimple {
   background-color: #3f5767;
-  background-image: url(assets/hero_cloud_full.png);
+  background-image: url(/assets/hero_cloud_full.png);
   background-position: 25% bottom;
   background-repeat: no-repeat;
   height: 860px;
@@ -2725,7 +2725,7 @@ ul.fieldset.left {
   box-sizing: border-box;
   font-family: futura-pt, "Futura", "open-sans", "Helvetica", sans-serif;
   background-color: #0d1f29;
-  background-image: url(assets/hero_ent_simple.png);
+  background-image: url(/assets/hero_ent_simple.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   bottom: 0;
@@ -2764,7 +2764,7 @@ ul.fieldset.left {
 
 /* line 366, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #languages {
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
   padding: 40px 0;
 }
 /* line 369, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
@@ -2806,13 +2806,13 @@ ul.fieldset.left {
 
 /* line 393, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 .ci {
-  background-image: url(assets/icons.png);
+  background-image: url(/assets/icons.png);
   display: inline-block;
 }
 
 /* line 397, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #homeOrgs {
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
   background-color: #253540;
   padding: 100px 0;
 }
@@ -3062,7 +3062,7 @@ ul.fieldset.left {
 /* line 511, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #openSource {
   background-color: #cc443d;
-  background-image: url(assets/public_flag.png);
+  background-image: url(/assets/public_flag.png);
   background-position: 90% bottom;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -3130,7 +3130,7 @@ ul.fieldset.left {
 
 /* line 559, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #homeFeatures {
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
   background-color: #253540;
   padding: 100px 0;
 }
@@ -3159,7 +3159,7 @@ ul.fieldset.left {
 }
 /* line 578, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #homeFeatures .screenItem a {
-  background-image: url(assets/icons.png);
+  background-image: url(/assets/icons.png);
   background-position: 0 -420px;
   display: block;
   height: 213px;
@@ -3238,7 +3238,7 @@ ul.fieldset.left {
   display: block;
   width: 517px;
   height: 406px;
-  background-image: url(assets/public_fist.png);
+  background-image: url(/assets/public_fist.png);
   float: right;
   margin-top: 60px;
   width: 482px;
@@ -3259,7 +3259,7 @@ ul.fieldset.left {
   display: block;
   width: 453px;
   height: 473px;
-  background-image: url(assets/public_stomp.png);
+  background-image: url(/assets/public_stomp.png);
 }
 /* line 640, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #homeWhy .computer {
@@ -3270,7 +3270,7 @@ ul.fieldset.left {
   display: block;
   width: 536px;
   height: 305px;
-  background-image: url(assets/public_computer.png);
+  background-image: url(/assets/public_computer.png);
   margin-top: 60px;
 }
 /* line 645, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
@@ -3288,7 +3288,7 @@ ul.fieldset.left {
   display: block;
   width: 387px;
   height: 92px;
-  background-image: url(assets/public_badges.png);
+  background-image: url(/assets/public_badges.png);
   float: right;
   margin-top: 58px;
 }
@@ -3301,12 +3301,12 @@ ul.fieldset.left {
 
 /* line 660, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #homeStories {
-  background: -webkit-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: -webkit-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: -moz-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: -o-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: -ms-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
-  background: linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(assets/paper.png);
+  background: -webkit-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: -webkit-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: -moz-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: -o-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: -ms-linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
+  background: linear-gradient(center top, rgba(255, 253, 250, 0.1), rgba(255, 253, 250, 0.8) 40%), url(/assets/paper.png);
   padding: 100px 0;
 }
 /* line 668, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
@@ -3578,7 +3578,7 @@ ul.fieldset.left {
 /* line 846, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #pricingOpen {
   background-color: #2b3d47;
-  background-image: url(assets/paper.png);
+  background-image: url(/assets/paper.png);
   overflow: hidden;
   padding: 80px 0 120px;
   position: relative;
@@ -3586,7 +3586,7 @@ ul.fieldset.left {
 }
 /* line 853, /Users/lee/www/coveralls/app/assets/stylesheets/public.sass */
 #pricingOpen:after {
-  background-image: url(assets/public_coveralls.png);
+  background-image: url(/assets/public_coveralls.png);
   background-repeat: no-repeat;
   background-size: contain;
   content: "";
@@ -3930,7 +3930,7 @@ ul.fieldset.left {
 }
 /* line 33, /Users/lee/www/coveralls/app/assets/stylesheets/sponsors.sass */
 .home-stripe.title .wrapper {
-  background-image: url(assets/public_coveralls.png);
+  background-image: url(/assets/public_coveralls.png);
   background-position: 550px 105px;
   background-repeat: no-repeat;
   position: relative;
@@ -5063,7 +5063,7 @@ ul.fieldset.left {
 
 
 #down-for-update {
-  background-image: url(assets/paper.png), url(assets/bb_star.png);
+  background-image: url(/assets/paper.png), url(/assets/bb_star.png);
   background-repeat: repeat, no-repeat;
   background-position: center center, center top;
   padding: 80px 0;
@@ -5079,4 +5079,3 @@ ul.fieldset.left {
 #down-for-update p {
   padding-bottom: 40px;
 }
-
