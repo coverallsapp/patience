@@ -10,6 +10,6 @@ Hash containing
 * `badge_token` string
 * `default_branch` string
 
-### "#{service}:#{repo_user}:#{repo_name}:coverage:#{branch}"
+### "#{service}:#{repo_user}:#{repo_name}:coverage"
 
-The coverage number as a whole number (stored as a string).
+Hash with the keys being the branch names, and the values being the coverage number as a whole number (stored as a string).

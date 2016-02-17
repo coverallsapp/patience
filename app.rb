@@ -41,7 +41,7 @@ end
       # If the repo is not public, ensure badge_token matches the param
       if repo_info['public'] == 't' || repo_info['badge_token'] == params[:t]
         begin
-          coverage = $redis.get("#{base_redis_key}:coverage:#{branch}")
+          coverage = $redis.hget("#{base_redis_key}:coverage", branch)
         rescue Redis::NoSuchKey
         end
       end
