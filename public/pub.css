@@ -5063,6 +5063,9 @@ ul.fieldset.left {
 
 
 #down-for-update {
+  background-image: url(assets/paper.png), url(assets/bb_star.png);
+  background-repeat: repeat, no-repeat;
+  background-position: center center, center top;
   padding: 80px 0;
   text-align: center;
 }
