@@ -5,6 +5,7 @@ GEM
       airbrake-ruby (~> 1.0)
     airbrake-ruby (1.0.4)
     dotenv (2.1.0)
+    newrelic_rpm (3.15.0.314)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -21,6 +22,7 @@ PLATFORMS
 DEPENDENCIES
   airbrake
   dotenv
+  newrelic_rpm
   redis
   sinatra
 

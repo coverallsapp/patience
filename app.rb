@@ -1,6 +1,7 @@
 require 'dotenv'
 Dotenv.load
 require 'sinatra'
+require 'newrelic_rpm'
 require 'redis'
 require 'json'
 require 'airbrake'
