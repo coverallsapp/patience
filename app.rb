@@ -5,11 +5,17 @@ require 'newrelic_rpm'
 require 'redis'
 require 'json'
 
-class MyApp < Sinatra::Base
+class Patience < Sinatra::Base
   configure do
     uri = URI.parse(ENV['REDISCLOUD_URL'] || 'redis://localhost:6379')
     $redis = Redis.new(host: uri.host, port: uri.port, password: uri.password)
     $base_badge_url = "https://s3.amazonaws.com/assets.coveralls.io/badges"
+  end
+
+  if ENV['RACK_ENV'] == 'production'
+    set :server, %w[Puma]
+  else
+    set :server, %w[webrick]
   end
 
   [
@@ -67,4 +73,4 @@ class MyApp < Sinatra::Base
   end
 end
 
-run MyApp.run!
+Patience.run!
