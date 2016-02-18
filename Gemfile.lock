@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    airbrake (5.0.5)
+      airbrake-ruby (~> 1.0)
+    airbrake-ruby (1.0.4)
     dotenv (2.1.0)
     rack (1.6.4)
     rack-protection (1.5.3)
@@ -16,6 +19,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  airbrake
   dotenv
   redis
   sinatra
