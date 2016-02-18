@@ -15,12 +15,21 @@ class MyApp < Sinatra::Base
     $base_badge_url = "https://s3.amazonaws.com/assets.coveralls.io/badges"
   end
 
-  post '/api/v1/jobs.?:format?' do
-    content_type 'application/json'
-    JSON.generate(
-      message: "Coveralls is currently down for maintenance.",
-      url: "https://coveralls.io",
-    )
+  [
+    '/api/v1/jobs.?:format?',
+    '/api/ruby/simplecov.?:format?',
+  ].each do |path|
+    post path do
+      content_type 'application/json'
+      JSON.generate(
+        message: "Coveralls is currently down for maintenance.",
+        url: "https://coveralls.io",
+      )
+    end
+  end
+
+  post '/webhook' do
+    status 503
   end
 
   [
