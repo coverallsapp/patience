@@ -4,11 +4,8 @@ require 'sinatra'
 require 'newrelic_rpm'
 require 'redis'
 require 'json'
-require 'airbrake'
 
 class MyApp < Sinatra::Base
-  use Airbrake::Rack::Middleware
-
   configure do
     uri = URI.parse(ENV['REDISCLOUD_URL'] || 'redis://localhost:6379')
     $redis = Redis.new(host: uri.host, port: uri.port, password: uri.password)
