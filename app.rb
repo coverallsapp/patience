@@ -56,8 +56,7 @@ class MyApp < Sinatra::Base
   end
 
   get '/*' do
-    send_file 'public/index.html'
-    status 500
+    send_file 'public/index.html', status: 503
   end
 end
 
