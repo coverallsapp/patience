@@ -4,23 +4,35 @@ require 'sinatra'
 require 'newrelic_rpm'
 require 'redis'
 require 'json'
-require 'airbrake'
 
-class MyApp < Sinatra::Base
-  use Airbrake::Rack::Middleware
-
+class Patience < Sinatra::Base
   configure do
     uri = URI.parse(ENV['REDISCLOUD_URL'] || 'redis://localhost:6379')
     $redis = Redis.new(host: uri.host, port: uri.port, password: uri.password)
     $base_badge_url = "https://s3.amazonaws.com/assets.coveralls.io/badges"
   end
 
-  post '/api/v1/jobs.?:format?' do
-    content_type 'application/json'
-    JSON.generate(
-      message: "Coveralls is currently down for maintenance.",
-      url: "https://coveralls.io",
-    )
+  if ENV['RACK_ENV'] == 'production'
+    set :server, %w[Puma]
+  else
+    set :server, %w[webrick]
+  end
+
+  [
+    '/api/v1/jobs.?:format?',
+    '/api/ruby/simplecov.?:format?',
+  ].each do |path|
+    post path do
+      content_type 'application/json'
+      JSON.generate(
+        message: "Coveralls is currently down for maintenance.",
+        url: "https://coveralls.io",
+      )
+    end
+  end
+
+  post '/webhook' do
+    status 503
   end
 
   [
@@ -61,4 +73,4 @@ class MyApp < Sinatra::Base
   end
 end
 
-run MyApp.run!
+Patience.run!
